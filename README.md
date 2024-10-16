@@ -37,7 +37,20 @@ This project aims to provide a **step-by-step guide** to building and deploying 
 - **🔒 Secure Deployment**: Implements AWS IAM policies and best security practices.
 
 ---
+## Table of Contents
 
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Architecture](#architecture)
+4. [Code Layout](#code-layout)
+5. [Dependencies](#dependencies)
+6. [Setup Steps](#setup-steps)
+7. [Configuration Options](#configuration-options)
+8. [Deployment](#deployment)
+9. [Change Process](#change-process)
+10. [Contact](#contact)
+
+---
 ## 🏗 **Architecture**
 
 ![Architecture Diagram](path/to/architecture-diagram.png) <!-- Replace with actual image path -->  
