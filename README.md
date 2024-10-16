@@ -9,17 +9,15 @@
 This repository contains a Laravel web application hosted on AWS, designed to showcase the integration of various AWS services including EC2, RDS, and Elastic Beanstalk.
 
 ## Project Overview
-The project consists of a web application that demonstrates how to set up a Laravel framework in an AWS environment, leveraging EC2 for hosting and RDS for database management.
+The project consists of a web application that demonstrates how to set up a Laravel framework in an AWS environment, leveraging EC2 for hosting and RDS for database management.  
 
 ## Features
 - **Laravel Framework**: Built on the popular Laravel framework for robust web applications.
 - **AWS Integration**: Utilizes EC2 for hosting, RDS for database management, and Elastic Beanstalk for deployment.
 - **Modular Structure**: The application is structured for easy understanding and maintenance.
 - **Error Handling & Logging**: Includes error handling and logging features for reliability.
-
+  
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
 - [Architecture](#architecture)
 - [Code Layout](#code-layout)
 - [Dependencies](#dependencies)
@@ -28,11 +26,10 @@ The project consists of a web application that demonstrates how to set up a Lara
 - [Deployment](#deployment)
 - [Change Process](#change-process)
 - [Contact](#contact)
-
-
+  
 ## Architecture
 
-![Architecture Diagram](path/to/architecture-diagram.png) <!-- Replace with actual image path -->
+![Architecture Diagram](path/to/architecture-diagram.png) <!-- Replace with actual image path -->  
 
 ## Code Layout
 
@@ -55,7 +52,7 @@ Project2-1stop
 ```
 ## Dependencies
 - **PHP**: Version 8.1 or higher.
-- **Composer**: Dependency manager for PHP.
+- **Composer**: Dependency manager for PHP to launch Laravel webpage.
 - **Laravel**: Version 8 or higher.
 - **AWS SDK for PHP**: For AWS integrations.
 
@@ -77,8 +74,17 @@ Project2-1stop
 ## Configuration Options
 The `.env` file includes the following configuration options:
 
-DB_CONNECTION=mariadb DB_HOST=<RDS_ENDPOINT> DB_PORT=3306 DB_DATABASE=<DATABASE_NAME> DB_USERNAME=<DB_USERNAME> DB_PASSWORD=<DB_PASSWORD>
+```plaintext
+DB_CONNECTION=mariadb
+DB_HOST=<RDS_ENDPOINT>
+DB_PORT=3306
+DB_DATABASE=<DATABASE_NAME>
+DB_USERNAME=<DB_USERNAME>
+DB_PASSWORD=<DB_PASSWORD>
+```
+After creation of RDS, we will get the username, password, DB name, db endpoint which we need to put in .env file.  
 
+**Reason:** The RDS database is meant to store and manage the application's persistent data. In Laravel, the database is used to manage things like user data, settings, and other resources through database migrations and models. Typically, Laravel applications use databases like MySQL or MariaDB, and in this case, the RDS MariaDB instance would serve as the central database for the application to store all the data.
 
 ## Deployment
 To deploy the application on Elastic Beanstalk:
