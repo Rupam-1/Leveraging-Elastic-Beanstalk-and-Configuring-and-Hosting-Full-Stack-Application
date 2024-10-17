@@ -29,6 +29,16 @@ This project aims to provide a **step-by-step guide** to building and deploying 
 
 ---
 
+## 🏃‍♂️ **Quick Start**
+
+1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
+2. Install dependencies: `composer install`
+3. Set up your `.env` file with your AWS credentials and database information
+4. Run migrations: `php artisan migrate`
+5. Deploy to Elastic Beanstalk (see [Deployment](#deployment) section for details)
+
+---
+
 ## 🎯 **Features**
 - **🌐 Laravel Framework**: Efficient, flexible, and secure web development.
 - **🔧 AWS Integration**: EC2 for hosting, RDS for database management, Elastic Beanstalk for deployment and scaling.
@@ -143,6 +153,14 @@ Ensure to retrieve the database credentials and endpoint after creating RDS inst
 4. **Merge to Main Branch**: Once approved, merge the changes into the `main` branch.
 
 ---
+
+## 🆘 Troubleshooting & FAQ
+
+**Q: How do I resolve "Connection refused" errors with RDS?**  
+**A:** Ensure that your security group settings allow inbound traffic on the database port (typically 3306 for MySQL/MariaDB) from your EC2 instance's security group.
+
+---
+
 
 ## 💼 **Contact**
 
