@@ -70,7 +70,8 @@ This project aims to provide a **step-by-step guide** to building and deploying 
 ---
 ## 🏗 **Architecture**
 
-![Architecture Diagram](path/to/architecture-diagram.png) <!-- Replace with actual image path -->  
+![image](https://github.com/user-attachments/assets/f4b67070-16df-42e1-bdf0-34f7450ff80d)  
+
 The application is hosted on AWS EC2, connected to a MariaDB RDS instance, and is packaged and deployed using Elastic Beanstalk for automatic scaling and deployment.  
 
 ---
