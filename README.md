@@ -21,6 +21,9 @@ This repository contains a **full-stack Laravel web application** hosted on **AW
 
 This project aims to provide a **step-by-step guide** to building and deploying a **Laravel web application** in AWS. It integrates **AWS services** like EC2 for hosting, RDS for database management, and Elastic Beanstalk for automated scaling and easy deployment.  
 
+For detailed documentation of steps followed with relevant screenshots, please refer :
+[Project_Documentation.pdf](https://github.com/Rupam-1/Leveraging-Elastic-Beanstalk-and-Configuring-and-Hosting-Full-Stack-Application/blob/main/Project_Documentation.pdf)
+
 ---
 
 ## 🌟 Key Features
