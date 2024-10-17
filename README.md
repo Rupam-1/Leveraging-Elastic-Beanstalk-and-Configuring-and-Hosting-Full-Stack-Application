@@ -78,21 +78,10 @@ The application is hosted on AWS EC2, connected to a MariaDB RDS instance, and i
 ## 🗂 **Code Layout**
 
 ```plaintext
-Project2-1stop 
-├── .env                   # Environment configuration file. 
-├── app                    # Application source code. 
-├── bootstrap              # Bootstrap the application. 
-├── config                 # Application configuration files. 
-├── database               # Database migrations and seeders. 
-├── public                 # Publicly accessible files, including index.php. 
-├── resources              # Views and assets. 
-├── routes                 # Application routes. 
-├── storage                # Application storage for logs and files. 
-├── tests                  # Automated tests for the application. 
-├── vendor                 # Composer dependencies. 
-└── README.md              # Project documentation.
-
-1 directory, 13 files
+Project
+├── project-Laravel        # contains all the files of Laravel webpage to deploy.
+├── doc.pdf                # documentation of detailed steps followed with relevant screenshots.
+└── README.md              # Project overview.
 ```
 ---
 
