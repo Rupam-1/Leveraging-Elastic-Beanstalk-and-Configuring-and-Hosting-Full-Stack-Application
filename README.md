@@ -21,32 +21,39 @@ This repository contains a **full-stack Laravel web application** hosted on **AW
 
 This project aims to provide a **step-by-step guide** to building and deploying a **Laravel web application** in AWS. It integrates **AWS services** like EC2 for hosting, RDS for database management, and Elastic Beanstalk for automated scaling and easy deployment.  
 
-🌟 **Key Technologies Used**:  
-- **Laravel**: A PHP framework for web applications.  
-- **AWS EC2**: For secure and resizable compute capacity.  
-- **AWS RDS**: A managed relational database service for MySQL/MariaDB.  
-- **Elastic Beanstalk**: Automated deployment and scaling service.
+---
+
+## 🌟 Key Features
+
+- **🛠 Laravel 8.x**: Utilizing the latest features of this powerful PHP framework
+- **☁️ AWS Integration**: 
+  - **EC2** for flexible compute capacity
+  - **RDS (MariaDB)** for managed relational database
+  - **Elastic Beanstalk** for automated deployment and scaling
+- **🔐 Security-First Approach**: Implements AWS IAM policies and best security practices
+- **📘 Comprehensive Documentation**: Detailed setup and deployment instructions
 
 ---
 
 ## 🏃‍♂️ **Quick Start**
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
-2. Install dependencies: `composer install`
-3. Set up your `.env` file with your AWS credentials and database information
-4. Run migrations: `php artisan migrate`
-5. Deploy to Elastic Beanstalk (see [Deployment](#deployment) section for details)
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   ```
+2. Install dependencies:
+   ```bash
+   composer install
+   ```
+3. Configure your `.env` file with AWS credentials and database information
+4. Run migrations:
+   ```bash
+   php artisan migrate
+   ```
+5. Deploy to Elastic Beanstalk (see [Deployment](#deployment-process) section)
+   
 ---
 
-## 🎯 **Features**
-- **🌐 Laravel Framework**: Efficient, flexible, and secure web development.
-- **🔧 AWS Integration**: EC2 for hosting, RDS for database management, Elastic Beanstalk for deployment and scaling.
-- **📦 Modular Code**: Well-structured for easy understanding, maintenance, and scaling.
-- **🚨 Error Handling & Logging**: In-depth error tracking to ensure smooth application performance.
-- **🔒 Secure Deployment**: Implements AWS IAM policies and best security practices.
-
----
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
