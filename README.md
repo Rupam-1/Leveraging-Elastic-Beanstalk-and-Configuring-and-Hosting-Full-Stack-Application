@@ -56,16 +56,14 @@ This project aims to provide a **step-by-step guide** to building and deploying 
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Architecture](#architecture)
-4. [Code Layout](#code-layout)
-5. [Dependencies](#dependencies)
-6. [Setup Steps](#setup-steps)
-7. [Configuration Options](#configuration-options)
-8. [Deployment](#deployment)
-9. [Change Process](#change-process)
-10. [Contact](#contact)
+1. [Architecture](#architecture)
+2. [Code Layout](#code-layout)
+3. [Dependencies](#dependencies)
+4. [Setup Steps](#setup-steps)
+5. [Configuration Options](#configuration-options)
+6. [Deployment Process](#deployment-process)
+7. [Change Management Process](#change-management-process)
+8. [Contact](#contact)
 
 ---
 ## 🏗 **Architecture**
