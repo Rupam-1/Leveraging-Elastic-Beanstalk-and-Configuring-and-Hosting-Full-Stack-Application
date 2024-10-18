@@ -53,7 +53,7 @@ For detailed documentation of steps followed with relevant screenshots, please r
    ```bash
    php artisan migrate
    ```
-5. Deploy to Elastic Beanstalk (see [Deployment](#deployment-process) section)
+5. Deploy to Elastic Beanstalk (see [Deployment Process](#deployment-process) section)
    
 ---
 
